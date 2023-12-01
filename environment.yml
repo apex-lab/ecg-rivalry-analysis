@@ -1,0 +1,28 @@
+name: ecg-rivalry
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pymc
+  - arviz
+  - pandas
+  - numpy
+  - scipy
+  - ipython
+  - jupyter
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - joblib
+  - r-essentials
+  - r-base
+  - r-lme4
+  - rpy2
+  - pip
+  - pip:
+    - pybids
+    - neurokit2
+    - dabest
+    - ptitprince
+    - bayesprev
